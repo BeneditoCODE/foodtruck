@@ -1,0 +1,33 @@
+*{
+    background-color: #f8f5f1;
+}
+.logoft{
+    width: 100px;
+    height: 100px;
+}
+
+.lista{
+    justify-content: center;
+    gap: 50px;
+    font-size: large
+}
+.inicio{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+a, p, h3{
+    color: #25374c;
+}
+
+h1, h2{
+    color: #e37f45;
+}
+.alinhamento{
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #e37f45;
+    text-align: center;
+}
