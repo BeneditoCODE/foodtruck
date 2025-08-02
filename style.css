@@ -1,21 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
 *{
     background-color: #f8f5f1;
+    
 }
 .logoft{
-    width: 100px;
-    height: 100px;
+    height: 110px;
 }
 
 .lista{
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     font-size: large
 }
-.inicio{
-    padding-left: 200px;
-    padding-right: 200px;
-}
-a, p, h3{
+
+a, p, h3, h5{
     color: #25374c;
 }
 
@@ -30,4 +30,64 @@ i{
     margin-bottom: 20px;
     color: #e37f45;
     text-align: center;
+}
+strong{
+    color: #e37f45;
+}
+.estilo{
+    padding: 30px 5%;
+}
+.estiloBeneficios{
+    text-align: center;
+    justify-content: center;
+}
+span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.pai{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    color: #25374c;
+}
+label{
+    color: #25374c;
+}
+button{
+    color: #ffffff;
+    background-color: #f8f5f1;
+}
+.enviar{
+    color: #ffffff;
+    background-color: #e37f45;
+    padding: 15px;
+    border-radius: 40px;
+    width: 100px;
+}
+.botao{
+    display: none;
+}
+
+@media screen and (max-width: 1023px){
+    
+    img{
+        align-items: center;
+    }
+    .estilo{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .pai{
+        flex-direction: column;
+    }
+    .botao{
+    display:block;
+    }
+
 }
